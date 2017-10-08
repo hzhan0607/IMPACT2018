@@ -13,7 +13,7 @@ SAMPLES = \
 	sample-acmsmall.tex \
 	sample-acmlarge.tex \
 	sample-acmtog.tex \
-	sample-sigconf.tex \
+	impact2018.tex \
 	sample-sigconf-authordraft.tex \
 	sample-sigplan.tex \
 	sample-sigchi.tex \
@@ -62,7 +62,7 @@ sample-acmtog.pdf: samplebody-journals.tex
 sample-sigconf.pdf \
 sample-sigconf-authordraft.pdf \
 sample-sigplan.pdf \
-sample-sigchi.pdf: samplebody-conf.tex
+sample-sigchi.pdf: impact2018-body.tex
 
 
 .PRECIOUS:  $(PACKAGE).cfg $(PACKAGE).cls
